@@ -20,11 +20,13 @@ This method will take three input parameters -array of TravelAgencies objects, i
 
 FlightFacility should be available.
 The input parameters(regNo and packageType) should matched with the regNo and packageType of TravelAgencies object.
-If any of the above conditions are not met, then the method should return null. Note : Same Travel agency can have more than one package type. Travel agency and package type combination is unique. All the searches should be case insensitive.
+If any of the above conditions are not met, then the method should return null. Note : Same Travel agency can have more than one package type. Travel agency
+and package type combination is unique. All the searches should be case insensitive.
 
 The above mentioned static methods should be called from the main method.
 
-For findAgencyWithHighestPackagePrice method – The main method should print the highestPackagePrice as it is. For agencyDetailsForGivenldAndType method -The main method should print the AgencyName and price of the returned object.The AgencyName and price should be concatinated with : while printing.
+For findAgencyWithHighestPackagePrice method – The main method should print the highestPackagePrice as it is. For agencyDetailsForGivenldAndType method -
+The main method should print the AgencyName and price of the returned object.The AgencyName and price should be concatinated with : while printing.
 
 Input
 
