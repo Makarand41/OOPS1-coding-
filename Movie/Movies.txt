@@ -1,0 +1,75 @@
+Create a Class Movie with below attributes:
+
+movieName - String 
+producingComapany - String 
+genre - String 
+budget - int
+
+Write getters, setters and parameterized constructor as required.
+
+Create class Solution with main method.
+
+
+Implement static method - budgetForGivenMovie in Solution class.
+
+This method will take a String parameter(genre) along with the other parameter as array of Movie objects.
+
+The method will return array of Movie objects where the String parameter appears in the genre attribute (with case sensitive search).
+
+This method should be called from main method and if the budget is greater than 80000000 print "High Budget Movie" else print "Low budget movie".
+
+Before calling this method(budgetForGivenMovie) in the main method, use Scanner object to read values for four Movie objects referring the attributes in the above sequence.
+
+then, read the value for search parameter.
+
+Next call the method budgetForGivenMovie and display the result.
+
+
+Consider below sample input and output:
+
+Input:
+
+aaa
+DC
+Action
+250000000
+bbb
+Marvel
+Action
+100000000
+ccc
+Paramount
+Drama
+75000000
+ddd
+Fox
+Romance
+20000000
+Action
+
+Output:
+High Budget movie
+High Budget movie
+
+
+
+
+public class Solution
+{
+public static void main(String[] args) 
+{ 
+//code to read values 
+//code to call required method 
+//code to display the results 
+} 
+
+public static Movie[] budgetForGivenMovie (Movie[] t, String string) 
+{ 
+//method logic 
+} 
+} 
+
+class Movie 
+{
+//code to build Associate class 
+} 
