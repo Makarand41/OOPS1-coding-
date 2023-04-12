@@ -43,7 +43,7 @@ public class Main {
         {
             for(int j = 0 ; j < help.length-i-1 ; j++)
             {
-                if(arr[j].getPrice() < arr[j+1].getPrice() )
+                if(help[j].getPrice() < help[j+1].getPrice() )
                 {
                     Medicine temp = help[j];
                     help[j] = help[j+1];
